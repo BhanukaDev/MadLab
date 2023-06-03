@@ -1,0 +1,7 @@
+*{
+    transition: 0.5s;
+}
+.courseCardImg:hover{
+    
+    transform: scale(1.05);
+}
