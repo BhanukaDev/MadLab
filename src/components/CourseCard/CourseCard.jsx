@@ -4,19 +4,27 @@ import { CustomRdRating, Image, RLabel } from '../CustomTools';
 
 export const CourseCard = ({
   type = 'small' | 'medium' | 'large',
-  title
+  title,
   tag,
   media,
   mdDS,
   rating = 4.5,
   ratingAmount = 120,
   sessions = 1,
+  position,
+  top,
+  right,
+  width,
 }) => {
   return (
     <Button
       sx={{
         padding: '0px',
         margin: '0px',
+        textTransform: 'unset',
+        position: position,
+        top: top,
+        right: right,
       }}
     >
       <Paper
@@ -29,7 +37,8 @@ export const CourseCard = ({
               ? '100px'
               : type === 'large'
               ? '405px'
-              : '316.56px',
+              : '334.52px',
+          width: width,
           height: 'fit-content',
           boxShadow: type === 'large' ? '0' : '10px 10px 40px rgba(0,0,0,0.1)',
           borderRadius: '10px',
@@ -42,7 +51,7 @@ export const CourseCard = ({
                 ? '100px'
                 : type === 'large'
                 ? '405px'
-                : '316.56px',
+                : '334.52px',
             borderRadius: '10px',
             overflow: 'hidden',
             aspectRatio: '1.33',

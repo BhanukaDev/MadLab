@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { Box, Button, SvgIcon, Typography, styled } from '@mui/material';
+import { Box, Button, Typography, styled } from '@mui/material';
 
 export const TabButton = styled(Button)(() => ({
   fontSize: '14px',
@@ -62,12 +62,14 @@ export const Image = ({
   width,
   height,
   objectFit = 'cover',
+  zIndex,
 }) => {
   return (
     <Box
       sx={{
         width: width || '100%',
         height: height || '100%',
+        zIndex: zIndex,
       }}
     >
       <img
@@ -133,5 +135,20 @@ export const CustomRdRating = ({ value = 2.8, max = 5 }) => {
       {halfStar}
       {emptyStars}
     </Box>
+  );
+};
+
+export const CourseButton = ({ title = 'My Butt', bgcolor = 'red' }) => {
+  return (
+    <Button
+      variant={'contained'}
+      disableElevation
+      sx={{
+        color: 'white',
+        bgcolor: bgcolor,
+      }}
+    >
+      <Typography>{title}</Typography>
+    </Button>
   );
 };

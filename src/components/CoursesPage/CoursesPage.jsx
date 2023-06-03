@@ -1,4 +1,4 @@
-import { Box, Container, Grid, Typography } from '@mui/material';
+import { Box, Grid, Typography } from '@mui/material';
 import { CourseCard } from '../CourseCard/CourseCard';
 import { TagsBox } from '../CustomTools';
 
