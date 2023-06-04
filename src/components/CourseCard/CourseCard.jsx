@@ -15,6 +15,7 @@ export const CourseCard = ({
   top,
   right,
   width,
+  mt,
 }) => {
   return (
     <Button
@@ -25,6 +26,7 @@ export const CourseCard = ({
         position: position,
         top: top,
         right: right,
+        mt: mt,
       }}
     >
       <Paper
@@ -65,7 +67,7 @@ export const CourseCard = ({
             variant='subtitle1'
             textAlign='left'
             mb='12px'
-            height={{ sm: '54px' }}
+            minHeight='54px'
           >
             {title}
           </Typography>

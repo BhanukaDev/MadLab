@@ -8,8 +8,10 @@ const theme = createTheme({
     },
     divider: '#E6E7E8',
   },
+
   typography: {
     fontFamily: ['Inter', 'sans-serif'].join(','),
+    textTransform: 'unset',
 
     h2: {
       fontFamily: ['Manrope', 'sans-serif'].join(','),

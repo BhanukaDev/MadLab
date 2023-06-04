@@ -146,9 +146,17 @@ export const CourseButton = ({ title = 'My Butt', bgcolor = 'red' }) => {
       sx={{
         color: 'white',
         bgcolor: bgcolor,
+        textTransform: 'unset',
+        fontFamily: ['Inter', 'sans-serif'].join(','),
+        fontWeight: 600,
+        fontSize: '16px',
+        lineHeight: '24px',
+        textAlign: 'center',
+        padding: '16px 24px',
+        borderRadius: '8px',
       }}
     >
-      <Typography>{title}</Typography>
+      {title}
     </Button>
   );
 };
