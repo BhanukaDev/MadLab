@@ -16,6 +16,7 @@ export const CourseCard = ({
   right,
   width,
   mt,
+  mx,
 }) => {
   return (
     <Button
@@ -27,6 +28,7 @@ export const CourseCard = ({
         top: top,
         right: right,
         mt: mt,
+        mx: mx,
       }}
     >
       <Paper
@@ -61,11 +63,12 @@ export const CourseCard = ({
         >
           <Image src={media} mdDS={mdDS} className='courseCardImg' />
         </Box>
-        <Box mx={'18px'}>
+        <Box mx={'9.02px'}>
           {tag}
           <Typography
             variant='subtitle1'
             textAlign='left'
+            fontSize={type === 'large' ? '20px' : '18px'}
             mb='12px'
             minHeight='54px'
           >

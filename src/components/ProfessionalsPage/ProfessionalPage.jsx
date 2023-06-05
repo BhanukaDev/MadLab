@@ -34,7 +34,7 @@ export const ProfessionalPage = () => {
               </Typography>
             </Grid>
             <Grid item xs={12}>
-              <CourseButton title={'View Course'} bgcolor='#BE8C00' />
+              <CourseButton title={'View Course'} color='yellowButton' />
             </Grid>
           </Grid>
         </Grid>
@@ -48,7 +48,7 @@ export const ProfessionalPage = () => {
           >
             <Grid item xs={11} sm={5} md={5} lg={6}>
               <CourseCard
-                title='Docker & Kubernetes Course - 12 Sessions in 1'
+                title='Docker & Kubernetes Course -&nbsp;&nbsp; 12 Sessions in 1'
                 tag={<TagsBox type={'prof'} />}
                 type='medium'
                 media={'src/assets/Courses Images/dockerPrf.png'}
@@ -58,10 +58,10 @@ export const ProfessionalPage = () => {
             </Grid>
             <Grid item xs={11} sm={5} md={5} lg={6}>
               <CourseCard
-                title='Docker & Kubernetes Course - 12 Sessions in 1'
+                title='AWS - 12 Sessions in 1'
                 tag={<TagsBox type={'prof'} />}
                 type='medium'
-                media={'src/assets/Courses Images/dockerPrf.png'}
+                media={'src/assets/Courses Images/aws.png'}
                 sessions={13}
                 mt={{ xs: '0px', sm: '80px', lg: '122px' }}
               />

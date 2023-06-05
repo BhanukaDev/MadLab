@@ -138,14 +138,13 @@ export const CustomRdRating = ({ value = 2.8, max = 5 }) => {
   );
 };
 
-export const CourseButton = ({ title = 'My Butt', bgcolor = 'red' }) => {
+export const CourseButton = ({ title = 'My Butt', color = 'YellowButton' }) => {
   return (
     <Button
       variant={'contained'}
       disableElevation
+      color={color}
       sx={{
-        color: 'white',
-        bgcolor: bgcolor,
         textTransform: 'unset',
         fontFamily: ['Inter', 'sans-serif'].join(','),
         fontWeight: 600,

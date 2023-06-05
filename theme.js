@@ -7,6 +7,20 @@ const theme = createTheme({
       contrastText: '#000000',
     },
     divider: '#E6E7E8',
+    yellowButton: {
+      main: '#BE8C00',
+      contrastText: '#ffffff',
+    },
+
+    purpleButton: {
+      main: '#724FBC',
+      contrastText: '#ffffff',
+    },
+
+    orangeButton: {
+      main: '#E16F38',
+      contrastText: '#ffffff',
+    },
   },
 
   typography: {
@@ -43,7 +57,7 @@ const theme = createTheme({
       fontFamily: ['Lato', 'sans-serif'].join(','),
       fontStyle: 'normal',
       fontWeight: 600,
-      fontSize: '12px',
+      fontSize: '13px',
       lineHeight: '14px',
       letterSpacing: '0.04em',
       textTransform: 'uppercase',

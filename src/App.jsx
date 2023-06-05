@@ -4,6 +4,7 @@ import { LandingPage } from './components/LandingPage/LandingPage';
 import theme from '../theme';
 import { CoursesPage } from './components/CoursesPage/CoursesPage';
 import { ProfessionalPage } from './components/ProfessionalsPage/ProfessionalPage';
+import { CareerPage } from './components/CareerCenterdPage/CareerPage';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <LandingPage />
       <CoursesPage />
       <ProfessionalPage />
+      <CareerPage />
     </ThemeProvider>
   );
 }
