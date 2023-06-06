@@ -5,6 +5,7 @@ import theme from '../theme';
 import { CoursesPage } from './components/CoursesPage/CoursesPage';
 import { ProfessionalPage } from './components/ProfessionalsPage/ProfessionalPage';
 import { CareerPage } from './components/CareerCenterdPage/CareerPage';
+import { ForStudentsPage } from './components/ForStudentsPage/ForStudentsPage';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <CoursesPage />
       <ProfessionalPage />
       <CareerPage />
+      <ForStudentsPage />
     </ThemeProvider>
   );
 }

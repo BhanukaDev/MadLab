@@ -138,7 +138,7 @@ export const CustomRdRating = ({ value = 2.8, max = 5 }) => {
   );
 };
 
-export const CourseButton = ({ title = 'My Butt', color = 'YellowButton' }) => {
+export const CourseButton = ({ title = 'My Butt', color = 'yellowButton' }) => {
   return (
     <Button
       variant={'contained'}
