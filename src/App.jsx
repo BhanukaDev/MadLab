@@ -6,6 +6,7 @@ import { CoursesPage } from './components/CoursesPage/CoursesPage';
 import { ProfessionalPage } from './components/ProfessionalsPage/ProfessionalPage';
 import { CareerPage } from './components/CareerCenterdPage/CareerPage';
 import { ForStudentsPage } from './components/ForStudentsPage/ForStudentsPage';
+import { PayAsGoPage } from './components/PayAsGOPage/PayAsGoPage';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <ProfessionalPage />
       <CareerPage />
       <ForStudentsPage />
+      <PayAsGoPage />
     </ThemeProvider>
   );
 }
