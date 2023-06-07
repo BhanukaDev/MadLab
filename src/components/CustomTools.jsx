@@ -101,7 +101,7 @@ export const CustomRdRating = ({ value = 2.8, max = 5 }) => {
       p={'1px'}
       component='img'
       key={index}
-      src='src/assets/starR.svg'
+      src='assets/starR.svg'
       height='15.89px'
       alt='star'
     />
@@ -112,7 +112,7 @@ export const CustomRdRating = ({ value = 2.8, max = 5 }) => {
       <Box
         p={'1px'}
         component='img'
-        src='src/assets/halfStarR.svg'
+        src='assets/halfStarR.svg'
         height='15.89px'
         alt='half star'
       />
@@ -123,7 +123,7 @@ export const CustomRdRating = ({ value = 2.8, max = 5 }) => {
       p={'1px'}
       component='img'
       key={index}
-      src='src/assets/emptyStarR.svg'
+      src='assets/emptyStarR.svg'
       height='15.89px'
       alt='star'
     />

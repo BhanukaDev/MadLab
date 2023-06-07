@@ -8,7 +8,7 @@ export const ForStudentsPage = () => {
       bgcolor='#F7E2A7'
       position={'relative'}
       sx={{
-        backgroundImage: 'url("src/assets/Backgrounds/students.png")',
+        backgroundImage: 'url("assets/Backgrounds/students.png")',
         backgroundRepeat: { xs: 'repeat', lg: 'no-repeat' },
         backgroundSize: { xs: 'auto', lg: 'cover' },
         backgroundPosition: { xs: 'left', lg: 'center' },
@@ -51,7 +51,7 @@ export const ForStudentsPage = () => {
                 title='GCE O/L ICT - 12 Sessions in 1'
                 tag={<TagsBox type={'students'} />}
                 type='medium'
-                media={'src/assets/Courses Images/dockerPrf.png'}
+                media={'assets/Courses Images/dockerPrf.png'}
                 sessions={13}
                 mt={{ xs: '80px', lg: '100px' }}
               />
@@ -61,7 +61,7 @@ export const ForStudentsPage = () => {
                 title='GCE A/L ICT - 12 Sessions in 1'
                 tag={<TagsBox type={'students'} />}
                 type='medium'
-                media={'src/assets/Courses Images/aws.png'}
+                media={'assets/Courses Images/aws.png'}
                 sessions={13}
                 mt={{ xs: '0px', sm: '80px', lg: '142px' }}
               />

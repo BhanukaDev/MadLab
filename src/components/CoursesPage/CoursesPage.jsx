@@ -29,7 +29,7 @@ export const CoursesPage = () => {
             title='Docker & Kubernetes Course - 12 Sessions in 1'
             tag={<TagsBox type={'prof'} />}
             type='large'
-            media={'src/assets/Courses Images/docker.png'}
+            media={'assets/Courses Images/docker.png'}
             sessions={3}
           />
         </Grid>
@@ -39,7 +39,7 @@ export const CoursesPage = () => {
             Course - 24 Sessions in 1'
             tag={<TagsBox type={'centred'} />}
             type='large'
-            media={'src/assets/Courses Images/fullstack.png'}
+            media={'assets/Courses Images/fullstack.png'}
             sessions={6}
           />
         </Grid>
@@ -48,7 +48,7 @@ export const CoursesPage = () => {
             title='GCE O/L ICT Course - 8 Sessions in 1'
             tag={<TagsBox type={'students'} />}
             type='large'
-            media={'src/assets/Courses Images/ict.png'}
+            media={'assets/Courses Images/ict.png'}
             sessions={9}
           />
         </Grid>

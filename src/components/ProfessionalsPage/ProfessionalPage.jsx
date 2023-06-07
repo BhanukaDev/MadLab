@@ -8,7 +8,7 @@ export const ProfessionalPage = () => {
       bgcolor='#F7E2A7'
       position={'relative'}
       sx={{
-        backgroundImage: 'url("src/assets/Backgrounds/professional.png")',
+        backgroundImage: 'url("assets/Backgrounds/professional.png")',
         backgroundRepeat: { xs: 'repeat', lg: 'no-repeat' },
         backgroundSize: { xs: 'auto', lg: 'cover' },
         backgroundPosition: { xs: 'left', lg: 'center' },
@@ -51,7 +51,7 @@ export const ProfessionalPage = () => {
                 title='Docker & Kubernetes Course -&nbsp;&nbsp; 12 Sessions in 1'
                 tag={<TagsBox type={'prof'} />}
                 type='medium'
-                media={'src/assets/Courses Images/dockerPrf.png'}
+                media={'assets/Courses Images/dockerPrf.png'}
                 sessions={13}
                 mt={{ xs: '80px', lg: '100px' }}
               />
@@ -61,7 +61,7 @@ export const ProfessionalPage = () => {
                 title='AWS - 12 Sessions in 1'
                 tag={<TagsBox type={'prof'} />}
                 type='medium'
-                media={'src/assets/Courses Images/aws.png'}
+                media={'assets/Courses Images/aws.png'}
                 sessions={13}
                 mt={{ xs: '0px', sm: '80px', lg: '122px' }}
               />

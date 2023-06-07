@@ -6,7 +6,7 @@ export const CareerPage = () => {
   return (
     <Box
       sx={{
-        backgroundImage: 'url("src/assets/Backgrounds/centred.png")',
+        backgroundImage: 'url("assets/Backgrounds/centred.png")',
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
         display: 'flex',
@@ -47,7 +47,7 @@ export const CareerPage = () => {
           12 Sessions in 1'
           tag={<TagsBox type={'centred'} />}
           type='medium'
-          media={'src/assets/Courses Images/crcentred.png'}
+          media={'assets/Courses Images/crcentred.png'}
           sessions={13}
         />
       </Box>

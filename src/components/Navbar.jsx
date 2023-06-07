@@ -16,7 +16,7 @@ export const Navbar = () => {
       >
         <Box
           component='img'
-          src='src/assets/madlabslogo.svg'
+          src='assets/madlabslogo.svg'
           sx={{
             objectFit: 'contain',
             width: '124.02px',

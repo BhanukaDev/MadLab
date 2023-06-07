@@ -124,7 +124,7 @@ export const CourseCard = ({
 
             <Box display={'flex'} gap={'6.5px'}>
               <Image
-                src='src/assets/sesIcon.svg'
+                src='assets/sesIcon.svg'
                 width={'15px'}
                 height={'14.97px'}
                 bgcolor='transparent'
