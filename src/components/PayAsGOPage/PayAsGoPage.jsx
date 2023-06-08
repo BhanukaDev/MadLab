@@ -12,7 +12,7 @@ export const PayAsGoPage = () => {
       <Box>
         <Box
           sx={{
-            backgroundImage: 'url("public/assets/Courses Images/payasgo.png")',
+            backgroundImage: 'url("public/assets/Courses Images/ict.png")',
             backgroundSize: 'contain',
             backgroundRepeat: 'no-repeat',
             width: '735px',
