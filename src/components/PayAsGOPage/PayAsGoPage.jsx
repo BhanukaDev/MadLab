@@ -4,19 +4,21 @@ export const PayAsGoPage = () => {
   return (
     <Box
       sx={{
-        display: 'flex',
-        pl: '92px',
-        pr: '122px',
+        display: { sm: 'block', md: 'flex' },
+        pl: { xs: '30px', md: '40px', lg: '92px' },
+        pr: { xs: '30px', md: '61px', lg: '122px' },
       }}
     >
-      <Box>
+      <Box mt={'69px'}>
         <Box
           sx={{
-            backgroundImage: 'url("public/assets/Courses Images/ict.png")',
+            backgroundImage: 'url("assets/Courses Images/payasgo.png")',
             backgroundSize: 'contain',
             backgroundRepeat: 'no-repeat',
-            width: '735px',
+            backgroundPosition: 'center',
+            width: { md: '550px', lg: '735px' },
             height: '648px',
+            display: { xs: 'none', md: 'block' },
           }}
         />
       </Box>
@@ -24,13 +26,14 @@ export const PayAsGoPage = () => {
         <Typography
           variant='h2'
           sx={{
-            mt: '229px',
-            mb: '30px',
+            mt: { xs: '100px', md: '229px' },
+            mb: { xs: '40px', md: '30px' },
           }}
         >
-          No more hassle, Pay as you go
+          No more hassle,
+          <br /> Pay as you go
         </Typography>
-        <Typography mb={'234px'}>
+        <Typography mb={{ xs: '100px', md: '234px' }}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostru.
