@@ -21,7 +21,7 @@ export const StoryCard = ({
       <Avatar src={url} sx={{ width: '55px', height: '55px' }} />
       <Box
         component={'img'}
-        src='public/assets/“.svg'
+        src='assets/quotes.svg'
         width={'15.93px'}
         position={'absolute'}
         sx={{

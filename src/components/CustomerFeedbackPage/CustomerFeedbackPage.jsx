@@ -1,5 +1,6 @@
 import { Box, Grid, Typography } from '@mui/material';
 import { StoryCard } from '../StoryCard';
+import theme from '../../../theme';
 
 export const CustomerFeedbackPage = () => {
   return (
@@ -13,7 +14,7 @@ export const CustomerFeedbackPage = () => {
     >
       <Box
         component={'img'}
-        src='public/assets/“.svg'
+        src='assets/quotes.svg'
         width={'142px'}
         position={'absolute'}
         sx={{
@@ -49,6 +50,7 @@ export const CustomerFeedbackPage = () => {
                 }}
               >
                 <StoryCard
+                  url={'assets/profilePics/Ellipse 1906-2.png'}
                   client='Floyd Miles'
                   jobTitle='Vice President, GoPro'
                   story='To quickly start my startup landing page design, I was looking for a landing page UI Kit. Peepsy is one of the best landing page UI kit I have come across. It’s so flexible, well organised and easily editable.'
@@ -69,6 +71,7 @@ export const CustomerFeedbackPage = () => {
                 }}
               >
                 <StoryCard
+                  url={'assets/profilePics/Ellipse 1906-1.png'}
                   client='Jane Cooper'
                   jobTitle='CEO, Airbnb'
                   story='I used Peepsy and created a landing page for my startup within a week. The Peepsy UI Kit is simple and highly intuitive, so anyone can use it.'
@@ -84,6 +87,7 @@ export const CustomerFeedbackPage = () => {
                 }}
               >
                 <StoryCard
+                  url={'assets/profilePics/Ellipse 1906.png'}
                   client='Kristin Watson'
                   jobTitle='Co-Founder, Strapi'
                   story='Peepsy saved our time in designing my company page.'
