@@ -27,6 +27,15 @@ const theme = createTheme({
     fontFamily: ['Inter', 'sans-serif'].join(','),
     textTransform: 'unset',
 
+    h1: {
+      fontFamily: ['Manrope', 'sans-serif'].join(','),
+      fontStyle: 'normal',
+      fontWeight: 800,
+      fontSize: '60px',
+      lineHeight: '73px',
+      color: '#000000',
+    },
+
     h2: {
       fontFamily: ['Manrope', 'sans-serif'].join(','),
       fontStyle: 'normal',
