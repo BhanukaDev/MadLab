@@ -1,6 +1,6 @@
 # MadLab
 
-MadLab is a showcase website built to demonstrate my skills in web development. It is designed based on a Figma design and implemented using ReactJS, Material-UI, and Firebase.
+MadLab is a showcase website built to demonstrate my skills in web development. It is designed based on a Figma [design](https://www.figma.com/file/t8FCeXajesOfCaZgHalbxa/MadLabs?node-id=61%3A17810&t=CLsdAqt9Q3eJlatd-1&fbclid=IwAR3inm-N9-1pRQKjqYaKP7hYZ_no-uAvdi9wCKLJkh24-qtcb1YN08R0EzU) and implemented using ReactJS, Material-UI, and Firebase.
 
 ## Demo
 
